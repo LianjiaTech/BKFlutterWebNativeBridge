@@ -1,0 +1,92 @@
+PODS:
+  - beike_device_info_plugin (0.0.1):
+    - Flutter
+  - BKFLWebBrowser/_FlutterChannelsHook (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Bridge (1.0.0):
+    - BKFLWebBrowser/BridgeEnvConfig
+    - BKFLWebBrowser/Browser
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/BridgeEnvConfig (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Browser (1.0.0):
+    - Flutter
+    - Masonry
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Flutter (1.0.0):
+    - BKFLWebBrowser/_FlutterChannelsHook
+    - BKFLWebBrowser/Bridge
+    - BKFLWebBrowser/Browser
+    - BKFLWebBrowser/FlutterEnvConfig
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Flutter2Web (1.0.0):
+    - BKFLWebBrowser/BridgeEnvConfig
+    - BKFLWebBrowser/Flutter
+    - BKFLWebBrowser/Module
+    - BKFLWebBrowser/Tool
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/FlutterEnvConfig (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Module (1.0.0):
+    - BKFLWebBrowser/Browser
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Tool (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - DEMO_Plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - Masonry (1.1.0)
+  - RSSwizzle (0.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - beike_device_info_plugin (from `.symlinks/plugins/beike_device_info_plugin/ios`)
+  - BKFLWebBrowser/Flutter2Web (from `../../BKFLWebBrowser-iOS`)
+  - DEMO_Plugin (from `.symlinks/plugins/DEMO_Plugin/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - RSSwizzle
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  beike_device_info_plugin:
+    :path: ".symlinks/plugins/beike_device_info_plugin/ios"
+  BKFLWebBrowser:
+    :path: "../../BKFLWebBrowser-iOS"
+  DEMO_Plugin:
+    :path: ".symlinks/plugins/DEMO_Plugin/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  beike_device_info_plugin: e4c0d655a75482569bd07d93dad9d141dbcd1af6
+  BKFLWebBrowser: 7c4e62a17fa5cee27bd46b62f959a92ded219de9
+  DEMO_Plugin: f9be99d826e8326a2c6e1d25e2cf31a884f5a596
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 80b27ae4e228b08c3b726f02d51a1b94d18e896c
+
+COCOAPODS: 1.9.1

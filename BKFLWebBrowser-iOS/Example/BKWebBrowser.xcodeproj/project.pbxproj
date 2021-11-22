@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		E41EC3952738C90200F3357D /* BKWebBrowser-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E41EC3872738C90200F3357D /* BKWebBrowser-Info.plist */; };
+		E41EC3962738C90200F3357D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E41EC3882738C90200F3357D /* InfoPlist.strings */; };
+		E41EC3972738C90200F3357D /* BKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41EC38A2738C90200F3357D /* BKAppDelegate.m */; };
+		E41EC39A2738C90200F3357D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E41EC3902738C90200F3357D /* main.m */; };
+		E41EC39B2738C90200F3357D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41EC3932738C90200F3357D /* Images.xcassets */; };
+		E41EC39C2738C90200F3357D /* BKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41EC3942738C90200F3357D /* BKViewController.m */; };
+		E41EC5A727390FC500F3357D /* libPods-BKWebBrowser_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41EC5A627390FC500F3357D /* libPods-BKWebBrowser_Example.a */; };
+		E41EC5D52739150700F3357D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41EC38C2738C90200F3357D /* LaunchScreen.storyboard */; };
+		E41EC5D62739150700F3357D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41EC38E2738C90200F3357D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E482375C260C791200388DEF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12292363B66647C98CE3E635 /* Pods-BKWebBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKWebBrowser.debug.xcconfig"; path = "Target Support Files/Pods-BKWebBrowser/Pods-BKWebBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		15C5702C7A43ADD416575762 /* libPods-LJWebBrowser_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJWebBrowser_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDF3DC7ECC6253A3CF2F0FA /* Pods-BKWebBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKWebBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2AF8E55A5D0BE71620C49F7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3B90F33BD5E0FE960FB019D6 /* Pods-LJWebBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWebBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-LJWebBrowser_Example/Pods-LJWebBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		412D58524D51C71AAAF309F3 /* Pods-LJWebBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWebBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-LJWebBrowser_Example/Pods-LJWebBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* BKWebBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKWebBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6A2557483EC0C48EBBCA446E /* Pods-LJWebBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWebBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-LJWebBrowser_Tests/Pods-LJWebBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		700730D3A67D726989E33A25 /* Pods-BKWebBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKWebBrowser.release.xcconfig"; path = "Target Support Files/Pods-BKWebBrowser/Pods-BKWebBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		85D07A4A81BE0751466214F7 /* Pods-BKWebBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BKWebBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		920DCB1D31127F09D2B70E09 /* libPods-BKWebBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BKWebBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0F1AB5C59C545EF1B29D93 /* Pods-LJWebBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJWebBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LJWebBrowser_Tests/Pods-LJWebBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D36BCAE48486FBC9B8D5508F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E41EC3872738C90200F3357D /* BKWebBrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BKWebBrowser-Info.plist"; sourceTree = "<group>"; };
+		E41EC3892738C90200F3357D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E41EC38A2738C90200F3357D /* BKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAppDelegate.m; sourceTree = "<group>"; };
+		E41EC38B2738C90200F3357D /* BKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKViewController.h; sourceTree = "<group>"; };
+		E41EC38D2738C90200F3357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E41EC38F2738C90200F3357D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E41EC3902738C90200F3357D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E41EC3912738C90200F3357D /* BKWebBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKWebBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		E41EC3922738C90200F3357D /* BKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAppDelegate.h; sourceTree = "<group>"; };
+		E41EC3932738C90200F3357D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E41EC3942738C90200F3357D /* BKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKViewController.m; sourceTree = "<group>"; };
+		E41EC5A627390FC500F3357D /* libPods-BKWebBrowser_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-BKWebBrowser_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AD4B6324F637A3003DA1D1 /* LJFLWebBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LJFLWebBrowser.podspec; path = ../LJFLWebBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				E41EC5A727390FC500F3357D /* libPods-BKWebBrowser_Example.a in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				E41EC3862738C90200F3357D /* BKWebBrowser */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				D0152A516EDBB5750AE724AC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* BKWebBrowser_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E41EC5A627390FC500F3357D /* libPods-BKWebBrowser_Example.a */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				15C5702C7A43ADD416575762 /* libPods-LJWebBrowser_Tests.a */,
+				920DCB1D31127F09D2B70E09 /* libPods-BKWebBrowser_Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				E4AD4B6324F637A3003DA1D1 /* LJFLWebBrowser.podspec */,
+				D36BCAE48486FBC9B8D5508F /* README.md */,
+				2AF8E55A5D0BE71620C49F7A /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D0152A516EDBB5750AE724AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B90F33BD5E0FE960FB019D6 /* Pods-LJWebBrowser_Example.debug.xcconfig */,
+				412D58524D51C71AAAF309F3 /* Pods-LJWebBrowser_Example.release.xcconfig */,
+				BD0F1AB5C59C545EF1B29D93 /* Pods-LJWebBrowser_Tests.debug.xcconfig */,
+				6A2557483EC0C48EBBCA446E /* Pods-LJWebBrowser_Tests.release.xcconfig */,
+				1FDF3DC7ECC6253A3CF2F0FA /* Pods-BKWebBrowser_Example.debug.xcconfig */,
+				85D07A4A81BE0751466214F7 /* Pods-BKWebBrowser_Example.release.xcconfig */,
+				12292363B66647C98CE3E635 /* Pods-BKWebBrowser.debug.xcconfig */,
+				700730D3A67D726989E33A25 /* Pods-BKWebBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E41EC3862738C90200F3357D /* BKWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E41EC3932738C90200F3357D /* Images.xcassets */,
+				E41EC3882738C90200F3357D /* InfoPlist.strings */,
+				E41EC38C2738C90200F3357D /* LaunchScreen.storyboard */,
+				E41EC3922738C90200F3357D /* BKAppDelegate.h */,
+				E41EC38A2738C90200F3357D /* BKAppDelegate.m */,
+				E41EC38B2738C90200F3357D /* BKViewController.h */,
+				E41EC3942738C90200F3357D /* BKViewController.m */,
+				E41EC3872738C90200F3357D /* BKWebBrowser-Info.plist */,
+				E41EC3912738C90200F3357D /* BKWebBrowser-Prefix.pch */,
+				E41EC3902738C90200F3357D /* main.m */,
+				E41EC38E2738C90200F3357D /* Main.storyboard */,
+			);
+			path = BKWebBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* BKWebBrowser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BKWebBrowser_Example" */;
+			buildPhases = (
+				62B656A0FC8DFCC0EC2AE862 /* [CP] Check Pods Manifest.lock */,
+				438FC1FB04176A9A205B08FD /* [CP] Prepare Artifacts */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				03BAC72D93DAD6725D86EA46 /* [CP] Copy Pods Resources */,
+				E482375C260C791200388DEF /* Embed Frameworks */,
+				D62E8F0F9A1A60C2ADE96F82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKWebBrowser_Example;
+			productName = LJWebBrowser;
+			productReference = 6003F58A195388D20070C39A /* BKWebBrowser_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李翔宇";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2867UNTJFF;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BKWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* BKWebBrowser_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41EC5D52739150700F3357D /* LaunchScreen.storyboard in Resources */,
+				E41EC5D62739150700F3357D /* Main.storyboard in Resources */,
+				E41EC3952738C90200F3357D /* BKWebBrowser-Info.plist in Resources */,
+				E41EC39B2738C90200F3357D /* Images.xcassets in Resources */,
+				E41EC3962738C90200F3357D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BAC72D93DAD6725D86EA46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BKFLWebBrowser/BKFLWebBrowser_Bridge.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BKFLWebBrowser/BKFLWebBrowser_Browser.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BKFLWebBrowser/BKFLWebBrowser_Flutter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BKFLWebBrowser_Bridge.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BKFLWebBrowser_Browser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BKFLWebBrowser_Flutter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		438FC1FB04176A9A205B08FD /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-artifacts.sh",
+				"${PODS_ROOT}/Flutter/Flutter.xcframework",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B656A0FC8DFCC0EC2AE862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BKWebBrowser_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62E8F0F9A1A60C2ADE96F82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cocoapods-artifacts-${CONFIGURATION}.txt",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BKWebBrowser_Example/Pods-BKWebBrowser_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41EC39A2738C90200F3357D /* main.m in Sources */,
+				E41EC3972738C90200F3357D /* BKAppDelegate.m in Sources */,
+				E41EC39C2738C90200F3357D /* BKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E41EC3882738C90200F3357D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41EC3892738C90200F3357D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E41EC38C2738C90200F3357D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41EC38D2738C90200F3357D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E41EC38E2738C90200F3357D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E41EC38F2738C90200F3357D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDF3DC7ECC6253A3CF2F0FA /* Pods-BKWebBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2867UNTJFF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BKWebBrowser/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKWebBrowser/BKWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BKWebBrowser/BKWebBrowser-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beike.BKWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D07A4A81BE0751466214F7 /* Pods-BKWebBrowser_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2867UNTJFF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BKWebBrowser/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKWebBrowser/BKWebBrowser-Prefix.pch";
+				INFOPLIST_FILE = "BKWebBrowser/BKWebBrowser-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beike.BKWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "BKWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BKWebBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

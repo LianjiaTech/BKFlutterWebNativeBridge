@@ -1,0 +1,78 @@
+PODS:
+  - BKFLWebBrowser/_FlutterChannelsHook (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Bridge (1.0.0):
+    - BKFLWebBrowser/BridgeEnvConfig
+    - BKFLWebBrowser/Browser
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/BridgeEnvConfig (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Browser (1.0.0):
+    - Flutter
+    - Masonry
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Flutter (1.0.0):
+    - BKFLWebBrowser/_FlutterChannelsHook
+    - BKFLWebBrowser/Bridge
+    - BKFLWebBrowser/Browser
+    - BKFLWebBrowser/FlutterEnvConfig
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Flutter2Web (1.0.0):
+    - BKFLWebBrowser/BridgeEnvConfig
+    - BKFLWebBrowser/Flutter
+    - BKFLWebBrowser/Module
+    - BKFLWebBrowser/Tool
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/FlutterEnvConfig (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Module (1.0.0):
+    - BKFLWebBrowser/Browser
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - BKFLWebBrowser/Tool (1.0.0):
+    - Flutter
+    - RSSwizzle (~> 0.1.0)
+    - WebViewJavascriptBridge
+  - Flutter (2.5)
+  - Masonry (1.1.0)
+  - RSSwizzle (0.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - BKFLWebBrowser/Flutter2Web (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Flutter
+    - Masonry
+    - RSSwizzle
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  BKFLWebBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BKFLWebBrowser: 7c4e62a17fa5cee27bd46b62f959a92ded219de9
+  Flutter: 4e094eefe76d76f60537272587a6eb1abcf12d09
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RSSwizzle: d561958f595028bfcef98c7d55c318b3878a61c6
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 2db6ab573df62da6cb67ece90d7a3ec4a6b4d758
+
+COCOAPODS: 1.9.1

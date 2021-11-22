@@ -1,0 +1,36 @@
+buildscript {
+    ext.kotlin_version = '1.3.72'
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url uri('../../BKFLWebBrowser-Android/plugins')
+        }
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:3.5.0"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.beike.flutterweb:flutterweb-gradle:1.0.2"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url uri('../../BKFLWebBrowser-Android/plugins')
+        }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
