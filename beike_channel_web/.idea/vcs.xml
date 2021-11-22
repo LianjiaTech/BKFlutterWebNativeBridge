@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beike_device_info_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beike_device_info_plugin/example/ios/.symlinks/plugins/beike_device_info_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/beike_device_info_plugin/example/ios/.symlinks/plugins/lianjia_device_info_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flutter_navigator_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flutter_navigator_plugin/example/ios/.symlinks/plugins/flutter_navigator_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lianjia_device_info_plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lianjia_device_info_plugin/example/ios/.symlinks/plugins/lianjia_device_info_plugin" vcs="Git" />
+  </component>
+</project>

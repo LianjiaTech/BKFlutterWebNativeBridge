@@ -1,0 +1,17 @@
+
+plugin 'cocoapods-cafswitcher'
+
+platform :ios, '9.0'
+
+target 'BKWebBrowser_Example' do
+
+  pod 'BKFLWebBrowser', :subspecs => ['Flutter2Web'], :path => '../'
+  
+  post_install do |installer|
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = '$(inherited) FLWEBBROWSER_EXAMPLE_PROJECT=1 LJLOG_LEVEL=0'
+      end
+    end
+  end
+end

@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+group='com.beike.flutterweb'
+version='1.0.2'
+
+//使用本地插件
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../plugins'))
+        }
+    }
+}
+
+dependencies {
+    implementation gradleApi() //gradle sdk
+    implementation localGroovy() //groovy sdk
+    //build tools
+    implementation 'com.android.tools.build:gradle:3.5.1'
+//    implementation 'com.android.tools.build:transform-api:1.5.0' //transform
+    implementation 'org.javassist:javassist:3.20.0-GA' //javassist
+}
