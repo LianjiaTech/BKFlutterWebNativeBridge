@@ -14,7 +14,7 @@ BKFlutterWebNativeBridge建立了flutter web页面和native的通道，在贝壳
 
 # 如何使用
 我们以DEMO代码为例
-## 1. 本项目中会使用到Beike_AspectD,具体集成方式请参考Beike_AspectD的README。
+## 1. 本项目中会使用到Beike_AspectD,具体集成方式请参考[Beike_AspectD](https://github.com/LianjiaTech/Beike_AspectD)的README。
 ## 2. 在Flutter项目中添加以下依赖:
 
 ```dart
